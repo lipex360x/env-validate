@@ -4,7 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:dev": "tsx watch src/infra/server.ts"
+    "start:dev": "tsx watch src/infra/server.ts",
+    "prebuild": "tsc --noEmit",
+    "build": "tsup src --out-dir build",
+    "start": "node build/server.js"
   },
   "dependencies": {
     "dotenv": "16.0.3",
