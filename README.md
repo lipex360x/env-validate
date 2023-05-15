@@ -1,6 +1,8 @@
 <h2 align="center">Environment Validate</h2>
 <p align="center">A Fastify Application with environment variables validated</p>
 
+---
+
 #### :bookmark_tabs: Content Index
 
 - [Introduction](#zap-introduction)
@@ -39,3 +41,9 @@ Environment variables are often used to store sensitive information such as pass
 ```
 
 ---
+
+:point_up_2: [Go to Content Index](#bookmark_tabs-content-index)
+
+---
+
+:pushpin: Tips: for easier navigation by github, consider installing the [Octotree](https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc) plugin
